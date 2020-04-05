@@ -16,7 +16,7 @@ public class Main {
         }
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("What would you like to do?\nEnter 'add {name}', 'read', 'mark_done {name}', 'read_current', 'delete {name}' or 'close'");
+        System.out.println("What would you like to do?\nEnter 'add {name}', 'read', 'mark_done {name}', 'read_current', 'delete {name}' or 'close'\n");
 
         while (true) {
             // Scan input
@@ -54,7 +54,7 @@ public class Main {
                         System.exit(0);
                     default:
                         System.out.println("Sorry. Our system doesn't support command '" + command + "'");
-                        System.out.println("Try something like: 'add {name}', 'read', 'mark_done {name}', 'read_current', 'delete {name}' or 'close' :)");
+                        System.out.println("Try something like: 'add {name}', 'read', 'mark_done {name}', 'read_current', 'delete {name}' or 'close' :)\n");
                 }
             } catch (TaskException ex) {
                 ex.printErrorMsg();

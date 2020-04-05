@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cfd83b0-32d7-4596-96b4-353eceb76309" name="Default Changelist" comment="" />
+    <list default="true" id="7cfd83b0-32d7-4596-96b4-353eceb76309" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_jar/ToDoList.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ToDoList_jar/todo-list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/TaskExceptionCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/TaskExceptionCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gkashin/todolist/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/TaskExceptionCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/TaskExceptionCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gkashin/todolist/ToDoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZtuVLPWvAHnsCNcY8AAhh7OK43" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -145,10 +161,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586077612721" />
-    <state x="458" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586083914117">
+    <state x="458" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586102390205">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586083914117" />
+    <state x="458" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1586102390205" />
     <state x="447" y="127" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585835767939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -161,22 +177,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="195" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586082778194" />
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1586086195613">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1586090708076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586086195613" />
-    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1586086195611">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586090708076" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1586090708074">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586086195611" />
-    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1586086195611">
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586090708074" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1586090708073">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586086195611" />
-    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1586086195612">
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586090708073" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1586090708075">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586086195612" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586090708075" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586014340484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -197,10 +213,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="113" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1585836208646" />
-    <state x="208" y="23" width="1024" height="795" key="SettingsEditor" timestamp="1586087209123">
+    <state x="208" y="23" width="1024" height="795" key="SettingsEditor" timestamp="1586102399446">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="23" width="1024" height="795" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586087209123" />
+    <state x="208" y="23" width="1024" height="795" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586102399446" />
     <state x="390" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586005767865">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

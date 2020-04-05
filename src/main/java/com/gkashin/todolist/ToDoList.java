@@ -55,6 +55,7 @@ public final class ToDoList {
             throw new TaskException(TaskExceptionCodes.TASK_LIST_IS_EMPTY);
         } else {
             tasks.forEach(task -> System.out.println(task.getName() + ": " + (task.getDone() ? "done" : "not done")));
+            System.out.println();
         }
     }
 
@@ -67,7 +68,7 @@ public final class ToDoList {
             // Add task to both 'tasks' and 'currentTasks' because it is not completed yet
             tasks.add(task);
             currentTasks.add(task);
-            System.out.println("You have successfully added task '" + task.getName() + "'!");
+            System.out.println("You have successfully added task '" + task.getName() + "'!\n");
         }
     }
 
@@ -80,7 +81,7 @@ public final class ToDoList {
                 // Delete task from both 'tasks' and 'currentTasks' if it exists
                 tasks.remove(task);
                 currentTasks.remove(task);
-                System.out.println("You have successfully deleted task '" + task.getName() + "'!");
+                System.out.println("You have successfully deleted task '" + task.getName() + "'!\n");
             } else {
                 throw new TaskException(TaskExceptionCodes.TASK_NOT_FOUND);
             }
@@ -98,7 +99,7 @@ public final class ToDoList {
                 tasks.add(task);
                 // Also delete task from 'currentTasks' since it is already completed
                 currentTasks.remove(task);
-                System.out.println("You have successfully marked task '" + task.getName() + "' as done!");
+                System.out.println("You have successfully marked task '" + task.getName() + "' as done!\n");
             } else {
                 throw new TaskException(TaskExceptionCodes.TASK_NOT_FOUND);
             }
@@ -136,6 +137,7 @@ public final class ToDoList {
             throw new TaskException(TaskExceptionCodes.CURRENT_TASKS_ARE_EMPTY);
         } else {
             currentTasks.forEach(task -> System.out.println(task.getName()));
+            System.out.println();
         }
     }
 
