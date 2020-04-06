@@ -1,5 +1,5 @@
 # ToDoList
-Test task for JetBrains Internship 2020 using *JSONSimple 1.1.1* and *JUnit 4.13*
+Test task for JetBrains Internship 2020, using *JSONSimple 1.1.1* and *JUnit 4.13*
 
 ## Description
 The Application stores a list of tasks in the json-file and allows:
